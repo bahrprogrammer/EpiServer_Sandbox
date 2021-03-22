@@ -1,0 +1,6 @@
+﻿<?xml version="1.0"?>
+<!--This file has been added as a work around. By having packages referenced with a content folder is a requirement to have
+   a content folder in the packages referencing in the case you need to add things to the referencing ones.
+   As soon as any other usable thing is added to content content folder this file should be removed-->
+<configuration>
+</configuration>

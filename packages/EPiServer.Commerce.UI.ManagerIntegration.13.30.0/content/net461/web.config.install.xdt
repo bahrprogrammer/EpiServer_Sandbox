@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <episerver.shell>
+    <protectedModules>
+      <!-- Remove old addon module, and make sure new module is in place -->
+      <add name="EPiServer.Commerce.AddOns.Manager" xdt:Transform="Remove" xdt:Locator="Match(name)"/>
+      <add name="EPiServer.Commerce.Shell.ManagerIntegration" xdt:Transform="Remove" xdt:Locator="Match(name)"/>
+      <add name="EPiServer.Commerce.Shell.ManagerIntegration" xdt:Transform="Insert" />
+    </protectedModules>
+  </episerver.shell>
+</configuration>

@@ -1,0 +1,12 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+
+@model WorkSandboxSite.Models.Pages.StandardPage
+
+<div>
+    <h1>@Html.PropertyFor(m => m.Heading)</h1>
+
+    <div>
+        @Html.PropertyFor(m => m.MainBody)
+    </div>
+</div>
